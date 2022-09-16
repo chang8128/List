@@ -45,7 +45,12 @@ struct ContentView: View {
                 ForEach(oceanRegions) { region in
                     Section(header: Text("Major \(region.name) Ocean Seas")) {
                         ForEach(region.seas) { sea in
-                            Text(sea.name)
+                            HStack {
+                                Image(systemName: "globe")
+                                    .imageScale(.large)
+                                    .foregroundColor(.accentColor)
+                                Text(sea.name)
+                            }
                         }
                     }
                     
