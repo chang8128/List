@@ -15,6 +15,8 @@
 		047D38B428D368BE00D05B9D /* ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D38B328D368BE00D05B9D /* ListUITests.swift */; };
 		047D38B628D368BE00D05B9D /* ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D38B528D368BE00D05B9D /* ListUITestsLaunchTests.swift */; };
 		047D38C328D368EB00D05B9D /* List1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D38C228D368EB00D05B9D /* List1.swift */; };
+		047D38C528D42FF600D05B9D /* BookDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D38C428D42FF600D05B9D /* BookDetail.swift */; };
+		047D38C728D44ADF00D05B9D /* List2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D38C628D44ADF00D05B9D /* List2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		047D38B328D368BE00D05B9D /* ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUITests.swift; sourceTree = "<group>"; };
 		047D38B528D368BE00D05B9D /* ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		047D38C228D368EB00D05B9D /* List1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List1.swift; sourceTree = "<group>"; };
+		047D38C428D42FF600D05B9D /* BookDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetail.swift; sourceTree = "<group>"; };
+		047D38C628D44ADF00D05B9D /* List2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			children = (
 				047D389828D368BB00D05B9D /* ListApp.swift */,
 				047D389A28D368BB00D05B9D /* ContentView.swift */,
+				047D38C428D42FF600D05B9D /* BookDetail.swift */,
 				047D38C228D368EB00D05B9D /* List1.swift */,
+				047D38C628D44ADF00D05B9D /* List2.swift */,
 				047D389C28D368BD00D05B9D /* Assets.xcassets */,
 				047D389E28D368BD00D05B9D /* Preview Content */,
 			);
@@ -261,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				047D389B28D368BB00D05B9D /* ContentView.swift in Sources */,
+				047D38C528D42FF600D05B9D /* BookDetail.swift in Sources */,
 				047D38C328D368EB00D05B9D /* List1.swift in Sources */,
+				047D38C728D44ADF00D05B9D /* List2.swift in Sources */,
 				047D389928D368BB00D05B9D /* ListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
