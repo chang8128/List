@@ -45,13 +45,17 @@ struct ContentView: View {
                 ForEach(oceanRegions) { region in
                     Section(header: Text("Major \(region.name) Ocean Seas")) {
                         ForEach(region.seas) { sea in
-                            HStack {
-                                Image("zhongyangdiguodecaizhengmima")
-                                    .resizable()
-                                    .frame(width: 50, height: 50)
-                                    .imageScale(.large)
-                                    .foregroundColor(.accentColor)
-                                Text(sea.name)
+                            NavigationLink {
+                                BookDetail()
+                            } label: {
+                                HStack {
+                                    Image("zhongyangdiguodecaizhengmima")
+                                        .resizable()
+                                        .frame(width: 50, height: 50)
+                                        .imageScale(.large)
+                                        .foregroundColor(.accentColor)
+                                    Text(sea.name)
+                                }
                             }
                         }
                     }
